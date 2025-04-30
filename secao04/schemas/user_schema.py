@@ -9,4 +9,4 @@ class UserRead(BaseModel):
     name: str
     email: EmailStr
 
-    model_config = ConfigDict(from_attributes=True)  # substitui orm_mode = True
+    model_config = ConfigDict(from_attributes=True) 
