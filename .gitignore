@@ -3,6 +3,9 @@ venv/
 ENV/
 env/
 .venv/
+secao03/curso-fastapi-secao03/
+secao04/curso-fastapi-04/
+
 
 # Arquivos do Python
 __pycache__/

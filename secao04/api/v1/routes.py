@@ -8,9 +8,6 @@ from secao04.schemas.user_schema import UserCreate, UserRead
 
 router = APIRouter()
 
-@router.get("/ping")
-async def ping():
-    return {"msg": "pong"}
 
 @router.get("/users", response_model=list[UserRead])  # 👈 define o schema de resposta
 async def list_users(session: AsyncSession = Depends(get_session)):
